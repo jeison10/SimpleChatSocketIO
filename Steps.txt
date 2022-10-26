@@ -1,0 +1,28 @@
+//backend part
+
+Primeiro: Criar pastas Client e server
+
+Segundo: cd pasta server e no terminal "npm init -y"
+
+terceiro: npm install express mongoose cors nodemon
+
+Quarto: Criar arquivo inde.js e adiconar comando basicos
+    Para rodar o server node, usar o comando : node index.js
+
+quinto: Ir no package.json e adiconar o comando "start": "nodemon index.js" em script
+    Isso fará que ao execultar o comando npm start o servidor se auto compila quando feita modificações automanticament
+ 
+
+
+ // frontend part
+
+ primeiro: cd na plasta client
+
+ segundo: execultar o camando o "npx create-react-app ."
+
+ terceiro: npm install axios
+
+ Para instalar o framwork boortstrap : npm install react-bootstrap bootstrap 
+                                        importar o css no arquivo: import 'bootstrap/dist/css/bootstrap.min.css'
+
+bom site com exemplos e partes de codigos for free: https://www.bootdey.com/
