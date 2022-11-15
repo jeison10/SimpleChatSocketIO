@@ -33,8 +33,18 @@ const removeUser = (id) => {
 	
 }
 
-const getUser = (id) => users
-		.find((user) => user.id === id);
+const getUser = (to) => {	
+
+	for(var i=0, len=users.length; i<len; ++i){
+		var c=users[i]
+		
+
+		if (c.name == to){
+			
+			return (c.id)
+			
+		}
+	}}
 
 const getUsersInRoom = (room) => users
 		.filter((user) => user.room === room);
